@@ -1,0 +1,84 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100px;
+}
+
+.header-links a {
+    color: black;
+}
+
+.botao-estilizado {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+
+.botao-estilizado a {
+    color: black;
+}
+
+#form-div {
+    color: black;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    background-image: url(../img/fundo_form.png);
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.btn-styled {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+
+.btn-styled:hover {
+    font-size: 28px;
+    color: rgb(0, 255, 0);
+    transition:  0.8s;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.row-exibe-teste {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#tabela-provas {
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.button-ioicon {
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+
+.nome-prova {
+    text-decoration: black;
+}
